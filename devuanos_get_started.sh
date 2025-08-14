@@ -37,7 +37,7 @@ wget https://github.com/dinooz/devuanos/raw/master/devuanos_config.txt
 wget https://github.com/dinooz/devuanos/raw/master/devuanos_clean.sh
 wget https://github.com/dinooz/devuanos/blob/master/background.jpg
 
-wget https://git.devuan.org/devuan-packages/debootstrap/raw/suites/ascii/scripts/ceres
+wget https://git.devuan.org/devuan/debootstrap/raw/branch/suites/ascii/scripts/ceres
 sudo cp ./ceres /usr/share/debootstrap/scripts/
 sudo ln -sf /usr/share/debootstrap/scripts/ceres /usr/share/debootstrap/scripts/ascii
 
